@@ -1,0 +1,8 @@
+go mod init server
+go mod vendor
+git init
+git add .
+git commit -m "lets go"
+heroku login
+heroku create
+git push heroku master
